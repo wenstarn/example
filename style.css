@@ -1,0 +1,121 @@
+li {
+    border-color: white !important;
+}
+
+.footCard {
+    background-color: 	#dcdcdc;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.progress {
+    background-color: #ADD8E6;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.edCard {
+    background-color: white;
+    border-top: 1rem solid #0074d9;
+}
+
+.navbar {
+    transition: opacity 0.4s linear;
+}
+
+.navbar:hover {
+    opacity: 1 !important;
+}
+
+@media (max-width: 1140px) {
+    #codeSheet {width: 70% !important;}
+}
+
+@media (max-width: 960px) {
+    #codeSheet {width: 80% !important;}
+}
+
+@media (max-width: 720px) {
+    #codeSheet {width: 90% !important;}
+}
+
+@media (max-width: 540px) {
+    #codeSheet {width: 100% !important;}
+}
+
+strong {
+    min-width: 25%;
+    display: inline-block;
+
+}
+.textContact {
+    line-height: 3.5;
+    margin-left: 12%;
+}
+
+.greating {
+    line-height: 2.5;
+}
+
+.addInfo {
+    margin-left: 18%;
+}
+
+
+@media (max-width: 	1530px) {
+    .textContact {line-height: 3; margin-left: 8%;}
+    .greating {line-height: 1.5;}
+    .addContact {line-height: 3; margin-left: 8%;}
+    .addInfo {margin-left: 14%;}
+}
+
+@media (max-width: 	1140px) {
+    .textContact {line-height: 2.5;}
+    .greating {line-height: 1;}
+    .addContact {line-height: 2.5;}
+    .addInfo {margin-left: 10%;}
+    
+    
+}
+
+@media (max-width: 992px) {
+    .textContact {line-height: 2.5; margin-left: 2%;}
+    .greating {line-height: 1.5;}
+    strong { min-width: 16%;}
+    .addContact {line-height: 2.5; margin-left: 2%;}
+    .addInfo {margin-left: 15%;}
+   
+}
+
+@media (max-width: 764px) {
+    .textContact {line-height: 3; margin-left: 4%;}
+    .greating {line-height: 1; text-align: center;}
+    strong { min-width: 25%; margin-left: 17%;}
+    .addContact {line-height: 2.5; margin-left: 2%;}
+}
+
+@media (max-width: 620px) {
+    strong {margin-left: 15%;}
+    
+}
+
+@media (max-width: 550px) {
+    strong {margin-left: 5%;}
+    .addInfo {margin-left: 15%;}
+}
+
+
+.footerContent {
+    color: white;
+}
+
+.addContact {
+    line-height: 3.5;
+    margin-left: 18%;
+}
